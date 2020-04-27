@@ -1,0 +1,31 @@
+.span-liam {
+    font-style: italic;
+    color: rgb(3, 185, 240);
+}
+.primera-seccion {
+    background-color: black;
+    color: white;
+    display: block;
+}
+h1 {
+    color: violet;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+p {
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.span-rihanna {
+    font-style: italic;
+    color: blue;
+    }
+
+.segunda-sección {
+    background-color: darkolivegreen;
+    color: white;
+}
+.Lista-dos {
+    font-family: 'Roboto Mono', monospace
+}

@@ -1,0 +1,197 @@
+body {
+    background-color:white;
+    background-image: url(hero5.jpg);
+    font-family: 'Amatic SC', cursive;
+    margin: 0px; 
+}
+
+header {
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 5px;   
+    position: relative;
+}
+
+header a {
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.menu-button {
+    align-self: center;
+    border: none;
+    padding: 0;
+}
+
+.menu-button label {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+    padding: 0px;
+    margin: auto;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+         
+}
+
+#hero .imagen {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#hero .imagen img {
+    max-width: 100%;
+}
+.hero-button {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-button:hover {
+    cursor: pointer;
+    transition: all 0.1s linear;
+    background-color: violet;
+}
+ 
+input:focus {
+    background-color: lightskyblue;
+
+}
+
+.email-espacio {
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu-navegacion {
+    font-family: 'Amatic SC', cursive;
+    font-size: 10px;
+    display: inline;
+    padding: 25px 0;
+    text-align: center;
+    width: 100%;
+    background-color:pink;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.primera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.primera h1 {
+    font-size: 20px;
+}
+
+.primera h2 {
+    font-size: 15px;    
+}
+
+
+.Redes {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+.redes-icono {
+    width: 70px;
+    height: 70px;
+    padding: 20px;   
+
+}
+
+.redes-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Facebook-link a {
+    color:black;
+}
+
+.Instagram-link a {
+    color:black;
+}
+
+.linkedin-link a {
+    color:black;
+}
+
+#input-menu:checked ~ nav {
+    display: block;
+}
+
+/*aca empieza lo de media query*/
+
+#input-menu {
+    display: none;
+}
+.menu-navegacion {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .menu-navegacion {
+        display: inline;
+        background-color: transparent;
+        font-size: 25px;
+    }
+    .menu-button {
+        display: none;
+    }
+    .primera h1 {
+        font-size: 50px;
+    }
+    
+    .primera h2 {
+        font-size: 25px;    
+    }
+
+}    
+
+@media (min-width: 414px) {
+    .primera h1 {
+        font-size: 50px;
+    }
+    
+    .primera h2 {
+        font-size: 25px;  
+    }
+}

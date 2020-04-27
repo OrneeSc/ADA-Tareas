@@ -1,0 +1,33 @@
+.header-1 {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  margin: 10px;
+  justify-content: space-between;
+  height: 20px; }
+
+.fuente {
+  font-size: 20px;
+  font-weight: 600; }
+
+.menu {
+  color: black;
+  font-size: 10px;
+  margin: 0; }
+  .menu.celeste {
+    color: #69c9fc; }
+
+.header-2 {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  justify-content: start;
+  height: 20px;
+  margin: 10px; }
+
+.logo {
+  display: inline; }
+
+.menu-2 {
+  display: flex;
+  justify-content: space-between; }

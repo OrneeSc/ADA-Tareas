@@ -1,0 +1,39 @@
+@import "../abstract/variables";
+@import "../abstract/mixin";
+
+.header-1 { 
+    @include header;
+        span {
+           font-size: $font-size-l;
+           font-weight: 700;}
+        .logo {
+            display: inline-block; } 
+        .fa-slack {
+                font-size: 35px;
+                padding: 0 25px; }        
+}   
+.menu {
+    @include menu;
+    a {
+         text-decoration: none;
+         color: $font-color-1;
+         font-size: 15px;
+         font-weight: 500;}
+    .celeste {
+            color: $font-color-2;
+            font-weight: 600;}
+    &.header {
+        a {
+        font-size: $font-size-m;
+        padding: 0px 15px;
+        text-decoration: none; }
+      
+} }
+
+.iconos {
+    padding: 0 35px;
+    font-size: 25px;
+    .fa-bars {
+        padding: 0 25px;
+    }  
+}

@@ -1,0 +1,41 @@
+h1 {
+    background-color: steelblue;
+    color: white;
+    width: 10%;
+    height: 70px;
+    line-height: 65px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    transition-property: background-color, width;
+    transition-duration: 1s, 0.2s;
+}
+
+h1:hover {
+    background-color: violet;
+    height: 70px;
+    width: 15%;
+    color:white;
+    opacity: 1;
+
+}
+
+.boton-uno {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.boton-dos {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.boton-tres {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}

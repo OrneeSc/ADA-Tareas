@@ -1,0 +1,112 @@
+.retratos {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  box-shadow: 0 0 5px 0; }
+
+.encabezado-card h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600; }
+
+.card {
+  height: 500px;
+  width: 350px;
+  background-color: white;
+  box-shadow: 0 2px 10px 1px lightgrey;
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap; }
+  .card .encabezado-card {
+    font-family: "Roboto", sans-serif;
+    width: 350px;
+    height: 200px;
+    display: flex; }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center; }
+
+.content {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center; }
+
+.nombre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.fa-user {
+  color: #27CF54; }
+
+.freelancer {
+  color: #27CF54;
+  font-size: 15px; }
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+  border-radius: 10px; }
+
+.header-1 {
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  height: 30px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 30px; }
+  .header-1 span {
+    font-size: 20px;
+    font-weight: 700; }
+  .header-1 .logo {
+    display: inline-block; }
+  .header-1 .fa-slack {
+    font-size: 35px;
+    padding: 0 25px; }
+
+.menu {
+  color: black;
+  display: flex;
+  font-size: 10px;
+  margin: 0;
+  padding: 0 25px; }
+  .menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500; }
+  .menu .celeste {
+    color: #68b4e4;
+    font-weight: 600; }
+  .menu.header a {
+    font-size: 15px;
+    padding: 0px 15px;
+    text-decoration: none; }
+
+.iconos {
+  padding: 0 35px;
+  font-size: 25px; }
+  .iconos .fa-bars {
+    padding: 0 25px; }
+
+body {
+  background-color: #ecf0f1;
+  margin: 0;
+  height: 100%; }
+
+.profiles {
+  display: flex;
+  justify-content: center; }
+  .profiles p {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600; }

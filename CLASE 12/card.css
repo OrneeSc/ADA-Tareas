@@ -1,0 +1,150 @@
+body {
+    background-color: skyblue;
+}
+
+.container {
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0 5px; color: #333333;
+    height: 535px;
+    width: 355px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.header-img {
+    width: 100%;
+    padding: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+
+.card-content {
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.card-content p{
+    color: gray;
+}
+
+.titulo {
+    font-size: 20px;
+
+}
+
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.corazon {
+    width: 20px;
+    
+
+}
+
+.bookmark {
+    width: 20px;
+
+}
+
+.cubitos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.cubito {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: lightgray;
+
+    
+}
+
+.cubito:first-child {
+    margin-left: 0;
+
+}
+.rayita {
+    width: 100%;
+}
+
+.cubitos p {
+    margin: 5px;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.footer p {
+    display: inline-block;
+}
+
+.circulo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: palevioletred;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.circulo p {
+        font-size: 13px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        flex-direction: column;
+        
+}
+
+.popular {
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: royalblue;
+    color: white;
+    font-size: 10px;
+    top: 240px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

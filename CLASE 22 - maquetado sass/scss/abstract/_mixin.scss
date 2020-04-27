@@ -1,0 +1,64 @@
+@import "./variables";
+
+@mixin header {
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    font-family: $font-family;
+    height: 30px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 30px;
+}
+@mixin menu {
+    color: $font-color-1;
+    display: flex;
+    font-size: $font-size-s;   
+    margin: 0;  
+    padding: 0 25px;
+}
+
+@mixin retratos {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 0 5px 0;
+}
+
+@mixin card {
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    box-shadow: 0 2px 10px 1px lightgrey;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin encabezado-card {
+    font-family: $font-family;
+    width: 350px;
+    height: 200px;
+    display: flex;    
+}
+
+@mixin content-card {
+    font-family: $font-family;
+    display: flex;
+    align-items: center;
+}
+
+@mixin nombre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@mixin buton {
+    display: flex;
+    flex-direction: row;
+    font-size: $font-size-s;
+    border-radius: 10px;
+}
