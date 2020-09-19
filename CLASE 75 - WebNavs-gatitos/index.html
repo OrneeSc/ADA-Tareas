@@ -14,13 +14,28 @@
 
     <header class="header">
         <nav class="nav">
-            <a href="#" class="text" id="Raza">Raza</a>
-            <a href="#" class="text" id="Random">Random</a> 
+            <a href="#" class="text" id="Raza">Tipo de Raza</a>
+            <a href="#" class="text" id="Random">Imagen Random</a> 
         </nav>
     </header>
 
-    <div class="div">
+    <div class="div-imagen"></div>
 
+    <div class="div-buscador">
+
+        <input type="text" name="buscador" id="buscador-Raza" placeholder="Search">
+        <button type="button" id="button">Search</button>
+        <table class="tabla">
+            <thead>
+                <tr>
+                    <th>Name</th> 
+                    <th>Temperament</th>
+                    <th>Origin</th>
+                    <th>Hypoallergenic</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
     </div>
     
 </body>

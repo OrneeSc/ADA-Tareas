@@ -1,0 +1,15 @@
+footer {
+    background-color: rgb(179, 128, 137);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+}
+.pie{
+    margin:0;
+    padding: 0;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}

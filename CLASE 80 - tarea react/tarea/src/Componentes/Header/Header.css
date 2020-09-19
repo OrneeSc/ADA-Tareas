@@ -1,0 +1,16 @@
+header {
+    align-items: center;
+    background-color: rgb(179, 128, 137);
+    box-sizing: border-box;
+    box-shadow: 0 0 3px #333;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 75px;
+    justify-content: center;
+}
+h1 {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    /*line-height: 50px;*/
+}
