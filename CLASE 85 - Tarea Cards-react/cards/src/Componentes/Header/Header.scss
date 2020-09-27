@@ -1,0 +1,31 @@
+
+.main-header{
+    box-sizing: border-box;
+    width: 500px;
+    padding: 45px;
+    h1 {
+        font-size: 65px;
+        font-weight: 900;
+        margin: 0;
+        line-height: 50px;
+    }
+    button {
+        background: transparent;
+        color: #00d6d6;
+        border: 1px solid #00d6d6;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+        font-size: 25px;
+        cursor: pointer;
+        &:active, &:focus {
+            outline: none;
+        }
+        &:disabled {
+            color: lighten(#00d6d6, 30);
+            border-color: lighten(#00d6d6, 30);
+            cursor: default;
+        }
+    }
+}
