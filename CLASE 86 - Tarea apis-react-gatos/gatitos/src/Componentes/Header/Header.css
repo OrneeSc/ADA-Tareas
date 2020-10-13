@@ -1,0 +1,12 @@
+.main-header {
+    background-color:#AA4465;
+    height: 70px;
+    width: 100%;
+    margin: 0;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}

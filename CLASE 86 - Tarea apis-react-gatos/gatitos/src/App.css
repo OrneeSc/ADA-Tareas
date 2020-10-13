@@ -1,0 +1,26 @@
+.main-container {
+    background-color:#FFA69E;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 70px);
+}
+.buton {
+    padding: 10px;
+    margin: 10px;
+    background-color:  #DDFFF7;
+    cursor: pointer;
+    border-radius: 30px;
+    color: #861657;
+    border-color: #DDFFF7;
+    WIDTH: 100px;
+    height: 40px;
+    border: 1px solid #DDFFF7;
+    text-transform: none;
+}
+.buton:focus{
+    outline: none;
+    
+}

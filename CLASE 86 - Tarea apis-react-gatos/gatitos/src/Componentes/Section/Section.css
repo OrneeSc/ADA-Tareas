@@ -1,0 +1,13 @@
+.content{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    box-sizing: border-box;
+    width:50%;
+}
+
+.img {
+    box-sizing: border-box;
+    max-width: 50%;
+    margin: 20px;
+}
